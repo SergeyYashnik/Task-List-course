@@ -3,7 +3,6 @@
 @section('title', 'Add Task')
 
 @section('content')
-
     <form action="{{ route('tasks.store') }}" method="POST">
         @csrf
         <div>
@@ -25,5 +24,4 @@
             <button type="submit">Add Task</button>
         </div>
     </form>
-
 @endsection
