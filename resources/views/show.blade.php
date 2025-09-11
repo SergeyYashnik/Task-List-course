@@ -24,7 +24,7 @@
     </p>
 
     <div class="flex gap-2">
-        <a href="{{ route('tasks.edit', ['task' => $task->id]) }}" class="btn">Edit</a>
+        <a href="{{ route('tasks.edit', ['task' => $task->id]) }}" class="btn bg-gray-400 text-white! hover:bg-gray-600!">Edit</a>
 
         <form action="{{ route('tasks.toggle-complete', ['task' => $task->id]) }}" method="POST">
             @csrf
@@ -37,7 +37,7 @@
         <form action="{{ route('tasks.destroy', ['task' => $task->id]) }}" method="POST">
             @csrf
             @method('DELETE')
-            <button type="submit" class="btn">Delete</button>
+            <button type="submit" class="btn bg-red-400 text-white! hover:bg-red-600!">Delete</button>
         </form>
     </div>
 @endsection
