@@ -1,3 +1,5 @@
+[English](./README.md) | [Русский](./README.ru.md)
+
 # Task List Application
 
 This is a simple task list application built with Laravel as part of the "Laravel & PHP Mastery: Build 5 Real-World Projects" Udemy course.
